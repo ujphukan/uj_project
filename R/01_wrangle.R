@@ -100,3 +100,7 @@ ggsave("mtcars.png")
 # folder/ to put folder in gitignore
 # in the commit history red means deleting, there is a revert button in the commit pane as well
 # all the information we commit is available publicly in git hub, therefore .gitgnore is essential
+# Synchronising everything with collaborators or for public gitHub is used
+# To ready the computer for github web
+# Library(usethis), then git_sitrep()
+# 

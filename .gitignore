@@ -4,3 +4,5 @@
 .httr-oauth
 .DS_Store
 .quarto
+*.pdf
+new folder to putin gitignore/
