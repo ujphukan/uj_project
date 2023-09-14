@@ -81,5 +81,22 @@ source("R/01_wrangle.R")
 # $ git commit --m "Add multiple files to git"
 # $ git status to check that if process is complete
 
-# Lession 4: Developing code on GitHub----
-# 
+# Lesson 4: Developing code on GitHub----
+# convert a folder to git repository using console in R studio.
+# git hub desktop can be used to use an interactive platform instead of command line
+print("Hello")
+# Git pane in the right hand side near environment can be used to track the files that have been modified.
+# Commit tab can be used to track commit in interface instead of command line
+# Commit button is also on the top, or tools->version control option can be used
+# .gitgonre is a folder where we can put stuff that is not needed to commit or big files.
+library(ggplot2)
+ggplot(mtcars, aes(mpg, wt)) +
+  geom_point()
+
+ggsave("mtcars.pdf")
+ggsave("mtcars.png")
+
+# *.pdf to put pdfs in gitignore, so we dont commit to them
+# folder/ to put folder in gitignore
+# in the commit history red means deleting, there is a revert button in the commit pane as well
+# all the information we commit is available publicly in git hub, therefore .gitgnore is essential
